@@ -2,16 +2,16 @@
 vundle:
   - "The-NERD-tree"
   - "vim-flake8"
-  - "surround.vim"
-  - "vadv/vim-chef"
+#  - "surround.vim"
+#  - "vadv/vim-chef"
   - "vim-syntastic/syntastic"
-  - "plasticboy/vim-markdown"
+#  - "plasticboy/vim-markdown"
   - "ekalinin/Dockerfile.vim"
   - "https://github.com/hashivim/vim-terraform.git"
-  - "https://github.com/wtfbbqhax/Snort-vim.git"
+#  - "https://github.com/wtfbbqhax/Snort-vim.git"
   - "https://github.com/pearofducks/ansible-vim.git"
-  - "https://github.com/powerline/powerline.git"
-  - "https://github.com/ngmy/vim-rubocop.git"
+#  - "https://github.com/powerline/powerline.git"
+#  - "https://github.com/ngmy/vim-rubocop.git"
 set:
   - laststatus=2
   - showtabline=2
@@ -19,35 +19,35 @@ set:
   - foldmethod=indent
   - foldlevel=99
   - background=dark
-  - completeopt=menuone,longest,preview
+#  - completeopt=menuone,longest,preview
   - colorcolumn=101
-  - cursorcolumn
-  - cursorline
+#  - cursorcolumn
+#  - cursorline
   - expandtab
-  - tabstop=2
-  - shiftwidth=2
-  - spell
-  - spelllang=en
-  - spellfile=$HOME/.vim/en.utf-8.add
-  - number
-  # syntastic
+#  - tabstop=2
+#  - shiftwidth=2
+#  - spell
+#  - spelllang=en
+#  - spellfile=$HOME/.vim/en.utf-8.add
+#  - number
+  # - syntastic
   - statusline+=%#warningmsg#
   - statusline+=%{SyntasticStatuslineFlag()}
   - statusline+=%*
 
 map:
-  - <c-j> <c-w>j
-  - <c-k> <c-w>k
-  - <c-l> <c-w>l
-  - <c-h> <c-w>h
-  - <leader>td <Plug>TaskLisk
-  - "<leader>g :GundoToggle<CR>"
-  - "<F2> :NERDTreeToggle<CR>"
-  - "<F3> :setlocal spell! spelllang=en_us<CR>"
+#  - <c-j> <c-w>j
+#  - <c-k> <c-w>k
+#  - <c-l> <c-w>l
+#  - <c-h> <c-w>h
+#  - <leader>td <Plug>TaskLisk
+#  - "<leader>g :GundoToggle<CR>"
+#  - "<F2> :NERDTreeToggle<CR>"
+#  - "<F3> :setlocal spell! spelllang=en_us<CR>"
 
 nmap:
-  - "<F4> :SyntasticToggleMode<CR>"
-  - "<f5> :set number! number?<cr>"
+#  - "<F4> :SyntasticToggleMode<CR>"
+#  - "<f5> :set number! number?<cr>"
 
 syntax:
   - "on"
