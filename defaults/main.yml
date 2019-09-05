@@ -1,10 +1,10 @@
 ---
 vundle:
   - "The-NERD-tree"
-  - "vim-flake8"
+#  - "vim-flake8"
 #  - "surround.vim"
 #  - "vadv/vim-chef"
-  - "vim-syntastic/syntastic"
+#  - "vim-syntastic/syntastic"
 #  - "plasticboy/vim-markdown"
   - "ekalinin/Dockerfile.vim"
   - "https://github.com/hashivim/vim-terraform.git"
@@ -17,23 +17,23 @@ set:
   - showtabline=2
   - noshowmode
   - foldmethod=indent
-  - foldlevel=99
+#  - foldlevel=99
   - background=dark
 #  - completeopt=menuone,longest,preview
   - colorcolumn=101
 #  - cursorcolumn
 #  - cursorline
-  - expandtab
+#  - expandtab
 #  - tabstop=2
 #  - shiftwidth=2
 #  - spell
 #  - spelllang=en
 #  - spellfile=$HOME/.vim/en.utf-8.add
 #  - number
-  # - syntastic
-  - statusline+=%#warningmsg#
-  - statusline+=%{SyntasticStatuslineFlag()}
-  - statusline+=%*
+#  - syntastic
+#  - statusline+=%#warningmsg#
+#  - statusline+=%{SyntasticStatuslineFlag()}
+#  - statusline+=%*
 
 map:
 #  - <c-j> <c-w>j
@@ -60,20 +60,20 @@ filetype:
   - plugin indent on
 
 let:
-  - g:pyflakes_use_quickfix = 0
-  - g:NERDTreeDirArrows=0
-  - g:syntastic_always_populate_loc_list = 1
-  - g:syntastic_auto_loc_list = 1
-  - g:syntastic_check_on_open = 1
-  - g:syntastic_check_on_wq = 0
-  - g:syntastic_ruby_checkers = ['rubocop']
-  - g:syntastic_python_checkers = ['pylint', 'flake8']
-  - g:syntastic_ansible_checkers = ['ansible_lint']
-  - g:syntastic_chef_checkers = ['foodcritic', 'cookstyle']
-  - g:syntastic_ignore_files = ['\m^roles/']
+#  - g:pyflakes_use_quickfix = 0
+#  - g:NERDTreeDirArrows=0
+#  - g:syntastic_always_populate_loc_list = 1
+#  - g:syntastic_auto_loc_list = 1
+#  - g:syntastic_check_on_open = 1
+#  - g:syntastic_check_on_wq = 0
+#  - g:syntastic_ruby_checkers = ['rubocop']
+#  - g:syntastic_python_checkers = ['pylint', 'flake8']
+#  - g:syntastic_ansible_checkers = ['ansible_lint']
+#  - g:syntastic_chef_checkers = ['foodcritic', 'cookstyle']
+#  - g:syntastic_ignore_files = ['\m^roles/']
 
 command:
-  - Fuckyou w !sudo tee %
+#  - Fuckyou w !sudo tee %
 
 autocmd:
   - FileType ruby,eruby set filetype=ruby.eruby.chef
